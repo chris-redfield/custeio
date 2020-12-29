@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  painel-custeio:
+    build:
+      context: .
+    ports:
+        - "8501:8501"
+    
